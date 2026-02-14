@@ -1,70 +1,237 @@
-# Getting Started with Create React App
+# 🌱 Plant Disease Recognition using Deep Learning, Flask & React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An end-to-end AI/ML web application that detects plant diseases from leaf images using **EfficientNet (Transfer Learning)**, optimized with **TensorFlow Lite (FLOAT32)** and deployed using a modern full-stack architecture.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🔗 Live Application
 
-### `npm start`
+🌐 **Frontend (React - Vercel)**  
+https://plant-disease-web-application.vercel.app/
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+🔙 **Backend Repository (Flask API)**  
+https://github.com/Ashish094562/Plant-Disease-Flask.git  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+🎨 **Frontend Repository (React App)**  
+https://github.com/Ashish094562/Plant-Disease-WebApplication.git  
 
-### `npm test`
+🤗 **Model Hosted on Hugging Face Hub**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🚀 Project Highlights
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- 🌿 CNN-based image classification for **39 plant disease & healthy classes**
+- 🎯 Achieved **~99.1% validation accuracy**
+- ⚡ Low-latency inference (~43 ms mean, ~78 ms P95) on CPU
+- 🧠 Transfer Learning with EfficientNet
+- 📦 Optimized using TensorFlow Lite (FLOAT32)
+- 🔗 REST API built using Flask
+- 🎨 Modern responsive UI built with React
+- ☁ Production deployment using Render (Backend) & Vercel (Frontend)
+- 🚜 Designed for CPU-based & edge-ready deployment
+- 🔄 INT8 quantization planned for further optimization
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🏗️ System Architecture
 
-### `npm run eject`
+```
+User (Browser)
+↓
+React Frontend (Vercel)
+↓ POST Image
+Flask Backend API (Render)
+↓
+TFLite Model (Hugging Face Hub)
+↓
+Prediction JSON Response
+↓
+Frontend Displays Result
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🛠️ Tech Stack
 
-## Learn More
+### 👨‍💻 Programming
+- Python
+- JavaScript
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 🤖 Machine Learning
+- TensorFlow
+- Keras
+- TensorFlow Lite (FLOAT32)
+- Transfer Learning (EfficientNet)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 🌐 Backend
+- Flask
+- Flask-CORS
+- Gunicorn
 
-### Code Splitting
+### 🎨 Frontend
+- React.js
+- CSS3
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### ☁ Deployment
+- Backend: Render  
+- Frontend: Vercel  
+- Model Hosting: Hugging Face Hub  
+- Version Control: GitHub  
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 🧠 Model Details
 
-### Making a Progressive Web App
+- **Model Type:** Convolutional Neural Network (CNN)
+- **Backbone:** EfficientNet (Transfer Learning)
+- **Number of Classes:** 39
+- **Input Size:** 160 × 160 × 3
+- **Model Format:** TFLite FLOAT32
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### 📈 Performance Metrics
 
-### Advanced Configuration
+| Metric | Value |
+|--------|-------|
+| Accuracy | ~99.1% |
+| Precision (macro) | ~0.989 |
+| Recall (macro) | ~0.989 |
+| F1-score (macro) | ~0.991 |
+| Mean Latency | ~43 ms (CPU) |
+| P95 Latency | ~78 ms (CPU) |
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## 📂 Project Structure
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### 🔙 Backend (Flask API)
 
-### `npm run build` fails to minify
+```
+Plant-Disease-Flask/
+├── app.py
+├── model_loader.py
+├── inference.py
+├── requirements.txt
+├── Procfile
+└── README.md
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+---
+
+### 🎨 Frontend (React App)
+
+```
+Plant-Disease-WebApplication/
+├── public/
+├── src/
+├── package.json
+├── package-lock.json
+└── README.md
+```
+
+
+---
+
+## ▶️ How to Run Locally
+
+### 🔹 Backend (Flask)
+
+```bash
+git clone https://github.com/Ashish094562/Plant-Disease-Flask.git
+cd Plant-Disease-Flask
+
+python -m venv venv
+venv\Scripts\activate   # Windows
+
+pip install -r requirements.txt
+python app.py
+```
+
+---
+## Runs on:
+
+```
+http://localhost:5000
+```
+
+----
+
+## 🔹 Frontend (React)
+
+```
+git clone https://github.com/Ashish094562/Plant-Disease-WebApplication.git
+cd Plant-Disease-WebApplication
+
+npm install
+npm start
+```
+
+---
+
+## Runs on:
+
+```
+http://localhost:3000
+```
+
+----
+## 🌐 Deployment
+----
+🔙 Backend Deployment
+
+Hosted on Render
+
+Start Command:
+```
+gunicorn app:app
+```
+---
+
+## 🎨 Frontend Deployment
+
+Hosted on Vercel
+
+Automatic CI/CD from GitHub
+---
+
+## 🤗 Model Hosting
+---
+Stored and served from Hugging Face Hub
+
+Downloaded dynamically by backend
+
+---
+
+## 📌 Use Cases
+
+Smart Agriculture Systems
+
+Automated Crop Disease Detection
+
+Farmer-Friendly Diagnostic Tool
+
+AI-powered Agritech Applications
+
+Edge & Low-resource ML Deployment
+
+---
+## Future Improvements
+
+INT8 Quantization for smaller model size
+
+Mobile App Integration
+
+Batch image prediction
+
+---
+
+## 👨‍💻 Author
+
+Ashish Singh
+Final Year B.Tech
+Artificial Intelligence & Machine Learning
+
+----
