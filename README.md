@@ -16,6 +16,7 @@ https://github.com/Ashish094562/Plant-Disease-Flask.git
 https://github.com/Ashish094562/Plant-Disease-WebApplication.git  
 
 🤗 **Model Hosted on Hugging Face Hub**
+https://huggingface.co/Ashish094562/plant-model-float32-tflite
 
 ---
 
