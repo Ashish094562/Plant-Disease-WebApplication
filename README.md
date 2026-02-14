@@ -7,16 +7,16 @@ An end-to-end AI/ML web application that detects plant diseases from leaf images
 ## 🔗 Live Application
 
 🌐 **Frontend (React - Vercel)**  
-https://plant-disease-web-application.vercel.app/
+👉 https://plant-disease-web-application.vercel.app/
 
 🔙 **Backend Repository (Flask API)**  
-https://github.com/Ashish094562/Plant-Disease-Flask.git  
+👉 https://github.com/Ashish094562/Plant-Disease-Flask
 
 🎨 **Frontend Repository (React App)**  
-https://github.com/Ashish094562/Plant-Disease-WebApplication.git  
+👉 https://github.com/Ashish094562/Plant-Disease-WebApplication
 
-🤗 **Model Hosted on Hugging Face Hub**
-https://huggingface.co/Ashish094562/plant-model-float32-tflite
+🤗 **Model Hosted on Hugging Face Hub**  
+👉 https://huggingface.co/Ashish094562/plant-model-float32-tflite
 
 ---
 
