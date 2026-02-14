@@ -179,7 +179,7 @@ http://localhost:3000
 
 ----
 ## 🌐 Deployment
-----
+
 🔙 Backend Deployment
 
 Hosted on Render
@@ -195,10 +195,10 @@ gunicorn app:app
 Hosted on Vercel
 
 Automatic CI/CD from GitHub
----
+
 
 ## 🤗 Model Hosting
----
+
 Stored and served from Hugging Face Hub
 
 Downloaded dynamically by backend
@@ -234,4 +234,4 @@ Ashish Singh
 Final Year B.Tech
 Artificial Intelligence & Machine Learning
 
-----
+
