@@ -1,41 +1,41 @@
-# 🌱 Plant Disease Recognition using Deep Learning, Flask & React
+#  Plant Disease Recognition using Deep Learning, Flask & React
 
 An end-to-end AI/ML web application that detects plant diseases from leaf images using **EfficientNet (Transfer Learning)**, optimized with **TensorFlow Lite (FLOAT32)** and deployed using a modern full-stack architecture.
 
 ---
 
-## 🔗 Live Application
+##  Live Application
 
-🌐 **Frontend (React - Vercel)**  
-👉 https://plant-disease-web-application.vercel.app/
+ **Frontend (React - Vercel)**  
+ https://plant-disease-web-application.vercel.app/
 
-🔙 **Backend Repository (Flask API)**  
-👉 https://github.com/Ashish094562/Plant-Disease-Flask
+ **Backend Repository (Flask API)**  
+ https://github.com/Ashish094562/Plant-Disease-Flask
 
-🎨 **Frontend Repository (React App)**  
-👉 https://github.com/Ashish094562/Plant-Disease-WebApplication
+ **Frontend Repository (React App)**  
+ https://github.com/Ashish094562/Plant-Disease-WebApplication
 
-🤗 **Model Hosted on Hugging Face Hub**  
-👉 https://huggingface.co/Ashish094562/plant-model-float32-tflite
-
----
-
-## 🚀 Project Highlights
-
-- 🌿 CNN-based image classification for **39 plant disease & healthy classes**
-- 🎯 Achieved **~99.1% validation accuracy**
-- ⚡ Low-latency inference (~43 ms mean, ~78 ms P95) on CPU
-- 🧠 Transfer Learning with EfficientNet
-- 📦 Optimized using TensorFlow Lite (FLOAT32)
-- 🔗 REST API built using Flask
-- 🎨 Modern responsive UI built with React
-- ☁ Production deployment using Render (Backend) & Vercel (Frontend)
-- 🚜 Designed for CPU-based & edge-ready deployment
-- 🔄 INT8 quantization planned for further optimization
+ **Model Hosted on Hugging Face Hub**  
+ https://huggingface.co/Ashish094562/plant-model-float32-tflite
 
 ---
 
-## 🏗️ System Architecture
+##  Project Highlights
+
+-  CNN-based image classification for **39 plant disease & healthy classes**
+-  Achieved **~99.1% validation accuracy**
+-  Low-latency inference (~43 ms mean, ~78 ms P95) on CPU
+- Transfer Learning with EfficientNet
+-  Optimized using TensorFlow Lite (FLOAT32)
+-  REST API built using Flask
+-  Modern responsive UI built with React
+- Production deployment using Render (Backend) & Vercel (Frontend)
+- Designed for CPU-based & edge-ready deployment
+-  INT8 quantization planned for further optimization
+
+---
+
+##  System Architecture
 
 ```
 User (Browser)
@@ -55,28 +55,28 @@ Frontend Displays Result
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
-### 👨‍💻 Programming
+###  Programming
 - Python
 - JavaScript
 
-### 🤖 Machine Learning
+###  Machine Learning
 - TensorFlow
 - Keras
 - TensorFlow Lite (FLOAT32)
 - Transfer Learning (EfficientNet)
 
-### 🌐 Backend
+###  Backend
 - Flask
 - Flask-CORS
 - Gunicorn
 
-### 🎨 Frontend
+###  Frontend
 - React.js
 - CSS3
 
-### ☁ Deployment
+###  Deployment
 - Backend: Render  
 - Frontend: Vercel  
 - Model Hosting: Hugging Face Hub  
@@ -84,7 +84,7 @@ Frontend Displays Result
 
 ---
 
-## 🧠 Model Details
+##  Model Details
 
 - **Model Type:** Convolutional Neural Network (CNN)
 - **Backbone:** EfficientNet (Transfer Learning)
@@ -92,7 +92,7 @@ Frontend Displays Result
 - **Input Size:** 160 × 160 × 3
 - **Model Format:** TFLite FLOAT32
 
-### 📈 Performance Metrics
+###  Performance Metrics
 
 | Metric | Value |
 |--------|-------|
@@ -105,9 +105,9 @@ Frontend Displays Result
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
-### 🔙 Backend (Flask API)
+###  Backend (Flask API)
 
 ```
 Plant-Disease-Flask/
@@ -122,7 +122,7 @@ Plant-Disease-Flask/
 
 ---
 
-### 🎨 Frontend (React App)
+###  Frontend (React App)
 
 ```
 Plant-Disease-WebApplication/
@@ -136,9 +136,9 @@ Plant-Disease-WebApplication/
 
 ---
 
-## ▶️ How to Run Locally
+##  How to Run Locally
 
-### 🔹 Backend (Flask)
+###  Backend (Flask)
 
 ```bash
 git clone https://github.com/Ashish094562/Plant-Disease-Flask.git
@@ -160,7 +160,7 @@ http://localhost:5000
 
 ----
 
-## 🔹 Frontend (React)
+##  Frontend (React)
 
 ```
 git clone https://github.com/Ashish094562/Plant-Disease-WebApplication.git
@@ -179,9 +179,9 @@ http://localhost:3000
 ```
 
 ----
-## 🌐 Deployment
+##  Deployment
 
-🔙 Backend Deployment
+ Backend Deployment
 
 Hosted on Render
 
@@ -191,14 +191,14 @@ gunicorn app:app
 ```
 ---
 
-## 🎨 Frontend Deployment
+##  Frontend Deployment
 
 Hosted on Vercel
 
 Automatic CI/CD from GitHub
 
 
-## 🤗 Model Hosting
+##  Model Hosting
 
 Stored and served from Hugging Face Hub
 
@@ -206,7 +206,7 @@ Downloaded dynamically by backend
 
 ---
 
-## 📌 Use Cases
+##  Use Cases
 
 Smart Agriculture Systems
 
@@ -229,7 +229,7 @@ Batch image prediction
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 Ashish Singh
 Final Year B.Tech
